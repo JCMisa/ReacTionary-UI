@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  background-color: rgb(14, 15, 19);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*./components/nav.js*/
+.nav{
+  background-color: rgb(0, 0, 0);
+  height: 60px;
+  align-items: center;
+}
+
+.nav-item .nav-link{
+  color: aqua;
+  font-size: 20px;
+  transition: .4s ease-in-out;
+}
+
+.nav-item .nav-link:hover{
+  color: orangered;
+  transform: scale(.90);
+}
+
+.nav-item .disabled{
+  color: rgba(188, 194, 196, 0.932);
+  position: fixed;
+  right: 20px;
+  top: 15px;
+  font-size: small;
+}
+
+/*./components/form.js*/
+.form{
+  padding: 20px 40px;
+  margin-top: 80px;
+  border: 1px solid aqua;
+  border-radius: 10px;
+  margin-left: 90px;
+  margin-right: 90px;
+  transition: .4s ease-in-out;
+}
+
+.form:hover{
+  border-color: orangered;
+}
+
+.btn{
+  background-color: rgb(0, 0, 0);
+  border-radius: 80%;
+  position: fixed;
+  right: 70px;
+  top: 400px;
+  transition: .4s ease-in-out;
+}
+
+.btn:hover{
+  background: rgb(14, 15, 19);
+}
+
+.btn:active{
+  transform: scale(.90);
+}
+
+/*./components/footer.js*/
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 55px;
+  background-color: aqua;
+  color: rgb(14, 15, 19);
+  font-weight: 800;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .contact{
+  font-size: 35px;
+  color: rgb(14, 15, 19);
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 50px;
+  margin-top: -15px;
+  margin-bottom: 20px;
+  width: 45px;
+  background-color: rgb(14, 15, 19);
+  border-radius: 100%;
+  transition: .4s ease-in-out;
+}
+
+.footer .contact:hover{
+  transform: scale(1.20);
+}
+
+.footer .contact a{
+  color: orangered;
+  text-decoration: none;
+  transition: .4s ease-in-out;
+}
+
+.footer .contact a:hover{
+  color: aqua;
+}
