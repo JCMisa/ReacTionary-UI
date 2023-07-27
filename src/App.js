@@ -9,14 +9,14 @@ import './index.css'
 //import components
 import Nav from './components/nav'
 import Form from './components/form'
-//import Footer from './components/footer'
+import Footer from './components/footer'
 
 export default function App(){
     return(
         <>
             <Nav/>
             <Form/>
-            
+            <Footer/>
         </>
     )
 }
